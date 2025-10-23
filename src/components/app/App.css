@@ -1,0 +1,81 @@
+/* Root container for the main layout */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navigation bar items container*/
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Links inside the navigation bar*/
+.nav-items a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+/* Active link style in the navigation bar*/
+.nav-items .active {
+  font-weight: bold;
+  color: #ff8800;
+}
+
+/* Hover effect for navigation links*/
+.nav-items a:hover {
+  color: #64afff;
+}
+
+/* Search bar container*/
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Label within the search bar*/
+.search-bar label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Input field within the search bar*/
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+/* Button within the search bar*/
+.search-bar button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+/* DEFINITIONS:
+- margin: Space outside an element, used for separation.
+- padding: Space inside an element, between the content and the border.
+- max-width: Limits the maximum width of an element.
+- display: Defines how elements are displayed (e.g., block, flex).
+- justify-content: Aligns items along the main axis in a flex container.
+- align-items: Aligns items along the cross-axis in a flex container.
+- text-decoration: Modifies text appearance (e.g., underline, none).
+- font-weight: Sets the weight (thickness) of the font.
+- color: Specifies text or element color.
+- border: Defines the style, width, and color of an element's border.
+- border-radius: Rounds the corners of an element.
+- background-color: Sets the background color of an element.
+- cursor: Changes the cursor style when hovering over an element.
+*/ 
